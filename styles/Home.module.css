@@ -1,5 +1,24 @@
 .container {
-  padding: 0 2rem;
+  display: flex;
+  position: relative;
+}
+
+.informationContainer {
+  display: flex;
+}
+
+.detailsContainer {
+  width: 40%;
+  display: none;
+}
+
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  padding: 0 20px;
 }
 
 .main {
@@ -124,3 +143,11 @@
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+.menuBar {
+  display: flex;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: center;
+}

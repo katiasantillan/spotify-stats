@@ -1,0 +1,17 @@
+.boxContainer{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.switchContainer {
+    align-self: flex-end;
+    position: absolute;
+    right: 70px;
+}
